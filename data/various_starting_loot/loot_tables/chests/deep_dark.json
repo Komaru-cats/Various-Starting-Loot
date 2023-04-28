@@ -1,0 +1,144 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:echo_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:disc_fragment_5"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:golden_carrot"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:stone_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 3,
+                "max": 7
+              }
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.4,
+                "max": 0.7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 3,
+                "max": 7
+              }
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.2,
+                "max": 0.5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:wooden_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 3,
+                "max": 7
+              }
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.7,
+                "max": 0.9
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:golden_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.7,
+                "max": 0.9
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 3,
+                "max": 7
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 5,
+        "max": 7
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 5,
+        "max": 9
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sculk"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sculk_vein"
+        }
+      ]
+    }
+  ]
+}

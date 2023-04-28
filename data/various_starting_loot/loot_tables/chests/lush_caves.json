@@ -1,0 +1,152 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flowering_azalea"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:azalea"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:stone_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 3,
+                "max": 7
+              }
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.4,
+                "max": 0.7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 3,
+                "max": 7
+              }
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.2,
+                "max": 0.5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:wooden_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 3,
+                "max": 7
+              }
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.7,
+                "max": 0.9
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:golden_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.7,
+                "max": 0.9
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 3,
+                "max": 7
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 4,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_berries",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 5,
+        "max": 9
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:moss_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:moss_carpet"
+        }
+      ]
+    }
+  ]
+}
