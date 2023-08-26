@@ -50,4 +50,6 @@ execute at @r if biome ~ ~ ~ minecraft:deep_dark run setblock ~ ~ ~1 minecraft:b
 execute at @r if biome ~ ~ ~ minecraft:dripstone_caves run setblock ~ ~ ~1 minecraft:barrel{LootTable:"various_starting_loot:chests/dripstone_caves"}
 execute at @r if biome ~ ~ ~ minecraft:lush_caves run setblock ~ ~ ~1 minecraft:barrel{LootTable:"various_starting_loot:chests/lush_caves"}
 execute at @r if biome ~ ~ ~ minecraft:cherry_grove run setblock ~ ~ ~1 minecraft:barrel{LootTable:"various_starting_loot:chests/cherry"}
+say 11212
+
 execute run scoreboard players set first_launch_score first_launch 1
