@@ -1,8 +1,7 @@
 # Various Starting Loot
+#### A datapack that changes the standard loot of the bonus chest, now it depends on biomes - [see changes](https://modrinth.com/datapack/various-starting-loot/gallery)
 
-### A datapack that changes the standard loot of the bonus chest, now it depends on biomes
-
-You can see examples in the gallery.
+### You have to enable "Bonus Chest" to make the datapack works!!
 
 # Modes:
 ### Datapack has two modes. 
@@ -11,8 +10,8 @@ You can see examples in the gallery.
   - To enable this mode use `/function various_starting_loot:settings`
 
 ## Installing as datapack
-- Download and install datapack in the world.
-  - For a new world: You can click the "Data Packs" option when creating a new world and select this datapack.
+- Download and install datapack in the world
+  - For a new world: You can click the "Data Packs" option when creating a new world and select this datapack
 
 
 ## Installing as mod
@@ -20,4 +19,4 @@ You can see examples in the gallery.
 
 If you have any questions, bugs, suggestions you can [create an issue](https://github.com/Komaru-cats/Various-Starting-Loot/issues)
 
-p.s Terralith biome support is on its way
+###### p.s Terralith biome support is on its way
