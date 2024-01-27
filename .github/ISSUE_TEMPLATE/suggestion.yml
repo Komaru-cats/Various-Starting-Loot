@@ -15,5 +15,5 @@ body:
     attributes:
       label: Before creating a new suggestion
       options:
-        - label: I made sure that this function/advancement is not available at the moment in BACAP/Enhanced Discoveries
+        - label: I made sure that this function/advancement is not available at the moment in Various Starting Loot
           required: true
