@@ -1,5 +1,5 @@
 # Various Starting Loot
-#### A datapack that changes the standard loot of the bonus chest, now it depends on biomes - [see changes](https://modrinth.com/datapack/various-starting-loot/gallery)
+#### A datapack that changes the standard loot of the bonus chest, now it depends on biomes - [see examples](https://modrinth.com/datapack/various-starting-loot/gallery)
 
 ### You have to enable "Bonus Chest" to make the datapack works!!
 
