@@ -5,6 +5,6 @@
       "min_inclusive": 15,
       "max_inclusive": 100
     },
-    "description": "Various Starting Loot v3, a datapack that changes the standard loot of the bonus chest, now it depends on biomes."
+    "description": "Changes loot of the bonus chest to make it better."
   }
 }
