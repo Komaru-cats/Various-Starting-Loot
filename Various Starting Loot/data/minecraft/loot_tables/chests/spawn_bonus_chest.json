@@ -6,6 +6,18 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "name": "various_starting_loot:chests/mushroom_fields",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:mushroom_fields"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "name": "various_starting_loot:chests/desert",
           "conditions": [
             {
@@ -204,7 +216,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "various_starting_loot:chests/warm_highland",
+          "name": "various_starting_loot:chests/windswept_savanna",
           "conditions": [
             {
               "condition": "minecraft:location_check",
