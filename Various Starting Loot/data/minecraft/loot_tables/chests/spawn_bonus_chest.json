@@ -6,6 +6,138 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "name": "various_starting_loot:chests/terralith/cave/frostfire_caves",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "terralith:cave/frostfire_caves"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "various_starting_loot:chests/terralith/cave/mantle_caves",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "terralith:cave/mantle_caves"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "various_starting_loot:chests/terralith/cave/tuff_caves",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "terralith:cave/tuff_caves"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "various_starting_loot:chests/terralith/cave/deep_caves",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "terralith:cave/deep_caves"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "various_starting_loot:chests/terralith/cave/underground_jungle",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "terralith:cave/underground_jungle"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "various_starting_loot:chests/terralith/cave/thermal_caves",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "terralith:cave/thermal_caves"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "various_starting_loot:chests/terralith/cave/infested_caves",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "terralith:cave/infested_caves"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "various_starting_loot:chests/terralith/cave/granite_caves",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "terralith:cave/granite_caves"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "various_starting_loot:chests/terralith/cave/fungal_caves",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "terralith:cave/fungal_caves"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "various_starting_loot:chests/terralith/cave/diorite_caves",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "terralith:cave/diorite_caves"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "various_starting_loot:chests/terralith/cave/andesite_caves",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "terralith:cave/andesite_caves"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "name": "various_starting_loot:chests/mushroom_fields",
           "conditions": [
             {
