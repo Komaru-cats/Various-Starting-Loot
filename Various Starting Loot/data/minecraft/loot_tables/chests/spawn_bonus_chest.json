@@ -6,6 +6,18 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "name": "various_starting_loot:chests/minecraft/old_growth_pine_taiga",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:old_growth_pine_taiga"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "name": "various_starting_loot:chests/terralith/desert_canyon",
           "conditions": [
             {
