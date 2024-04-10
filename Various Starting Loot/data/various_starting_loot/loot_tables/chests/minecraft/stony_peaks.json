@@ -1,0 +1,242 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cobblestone",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 4,
+                  "max": 5
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:spyglass"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gravel",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_iron",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 3
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coal",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:calcite",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 7,
+                  "max": 10
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "min": 0.2,
+                  "max": 0.6
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:leaping"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_leggings",
+            "weight": 2,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 3,
+                  "max": 7
+                }
+              },
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "min": 0.2,
+                  "max": 0.45
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chainmail_leggings",
+            "weight": 4,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 3,
+                  "max": 7
+                }
+              },
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "min": 0.3,
+                  "max": 0.6
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_leggings",
+            "weight": 7,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 3,
+                  "max": 8
+                }
+              },
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "min": 0.7,
+                  "max": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_leggings",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 3,
+                  "max": 8
+                }
+              },
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "min": 0.5,
+                  "max": 0.95
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
