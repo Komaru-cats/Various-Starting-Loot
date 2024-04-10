@@ -18,6 +18,18 @@
         },
         {
           "type": "minecraft:loot_table",
+          "name": "various_starting_loot:chests/minecraft/stony_peaks",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:stone_peaks"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "name": "various_starting_loot:chests/terralith/desert_canyon",
           "conditions": [
             {
