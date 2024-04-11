@@ -5,6 +5,15 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:rabbit_stew"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "minecraft:spruce_log",
           "functions": [
             {
@@ -181,7 +190,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cooked_chicken",
+          "name": "minecraft:cooked_rabbit",
           "weight": 10,
           "functions": [
             {

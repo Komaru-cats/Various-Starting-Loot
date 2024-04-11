@@ -1,18 +1,11 @@
 {
   "pools": [
     {
-      "rolls": {
-        "min": 2,
-        "max": 3
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:flowering_azalea"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:azalea"
+          "name": "minecraft:bucket"
         }
       ]
     },
@@ -21,8 +14,152 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 8,
+          "name": "minecraft:big_dripleaf",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torch",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 14
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:moss_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:moss_carpet",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_berries",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 9
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flowering_azalea",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:azalea",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "minecraft:stone_pickaxe",
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -42,8 +179,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:iron_pickaxe",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -63,8 +200,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:wooden_pickaxe",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -84,8 +221,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:golden_pickaxe",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -102,49 +239,6 @@
               }
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 4,
-        "max": 5
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:glow_berries",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 6
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.5
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 5,
-        "max": 9
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:moss_block"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:moss_carpet"
         }
       ]
     }

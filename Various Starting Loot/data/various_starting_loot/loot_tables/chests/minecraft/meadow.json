@@ -2,34 +2,137 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {
-        "min": 3,
-        "max": 5
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:dandelion"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:azure_bluet"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:poppy"
+          "name": "minecraft:wooden_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.3,
+                "max": 0.4
+              }
+            }
+          ]
         }
       ]
     },
     {
-      "rolls": {
-        "min": 3,
-        "max": 5
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:honey_bottle"
+          "name": "minecraft:oak_log",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oxeye_daisy",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:azure_bluet",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cornflower",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poppy",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dandelion",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spyglass"
         }
       ]
     },
@@ -47,44 +150,40 @@
                 "max": 0.6
               }
             }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.5
-            }
           ]
         }
       ]
     },
     {
-      "rolls": 1,
+      "rolls": 2,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:potion",
+          "name": "minecraft:cooked_mutton",
+          "weight": 12,
           "functions": [
             {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:leaping"
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 4
+              }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:spyglass"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 3,
-        "max": 5
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cooked_beef"
+          "name": "minecraft:cooked_rabbit",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 4
+              }
+            }
+          ]
         }
       ]
     },
@@ -93,9 +192,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
           "name": "minecraft:iron_pickaxe",
+          "weight": 1,
           "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 1,
+                "max": 3
+              }
+            },
             {
               "function": "minecraft:set_damage",
               "damage": {
@@ -107,9 +213,16 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:golden_pickaxe",
+          "weight": 2,
           "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 2,
+                "max": 4
+              }
+            },
             {
               "function": "minecraft:set_damage",
               "damage": {
@@ -121,81 +234,15 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
           "name": "minecraft:stone_pickaxe",
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.3,
-                "max": 0.6
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "minecraft:wooden_pickaxe",
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.7,
-                "max": 1
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:iron_leggings",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 3,
-                "max": 7
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.7
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.2,
-                "max": 0.45
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "weight": 4,
-          "name": "minecraft:chainmail_leggings",
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "min": 3,
-                "max": 7
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.7
-                }
-              ]
+                "max": 5
+              }
             },
             {
               "function": "minecraft:set_damage",
@@ -208,53 +255,20 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 7,
-          "name": "minecraft:golden_leggings",
+          "name": "minecraft:wooden_pickaxe",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
-                "min": 3,
-                "max": 8
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.7
-                }
-              ]
+                "min": 4,
+                "max": 6
+              }
             },
             {
               "function": "minecraft:set_damage",
               "damage": {
                 "min": 0.7,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "minecraft:leather_leggings",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 3,
-                "max": 8
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.7
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.5,
                 "max": 0.95
               }
             }

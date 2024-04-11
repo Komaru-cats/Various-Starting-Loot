@@ -5,6 +5,15 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:dark_oak_boat"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "minecraft:ice",
           "functions": [
             {

@@ -5,6 +5,15 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:mangrove_boat"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "minecraft:pufferfish_bucket"
         },
         {

@@ -1,42 +1,11 @@
 {
   "pools": [
     {
-      "rolls": {
-        "min": 1,
-        "max": 4
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:packed_ice"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 0,
-        "max": 2
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:blue_ice"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 5,
-        "max": 8
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cooked_salmon"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cooked_cod"
+          "name": "minecraft:water_bucket"
         }
       ]
     },
@@ -45,8 +14,125 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
+          "name": "minecraft:brush"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gravel",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_cod",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_salmon",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_ice",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ice",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:packed_ice",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "minecraft:turtle_helmet",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
@@ -58,7 +144,7 @@
             {
               "function": "minecraft:set_damage",
               "damage": {
-                "min": 0.01,
+                "min": 0.05,
                 "max": 0.1
               }
             }
@@ -66,8 +152,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:iron_helmet",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -87,8 +173,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 7,
           "name": "minecraft:golden_helmet",
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
@@ -108,8 +194,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:leather_helmet",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
@@ -129,8 +215,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:chainmail_helmet",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -148,25 +234,6 @@
             }
           ]
         }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 1
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 3,
-        "max": 6
-      },
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:ice"
-        }
       ]
     },
     {
@@ -180,12 +247,6 @@
               "function": "minecraft:set_potion",
               "id": "minecraft:water_breathing"
             }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.3
-            }
           ]
         }
       ]
@@ -195,31 +256,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:mangrove_boat"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:oak_boat"
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:spruce_boat"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:jungle_boat"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:dark_oak_boat"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:birch_boat"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:acacia_boat"
+          "name": "minecraft:spruce_chest_boat"
         }
       ]
     },
@@ -236,22 +277,14 @@
               "levels": {
                 "min": 20,
                 "max": 30
-              },
-              "treasure": true,
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 1
-                }
-              ]
+              }
             },
             {
               "function": "minecraft:set_damage",
               "damage": {
                 "min": 0.2,
                 "max": 0.6
-              },
-              "add": false
+              }
             }
           ]
         }

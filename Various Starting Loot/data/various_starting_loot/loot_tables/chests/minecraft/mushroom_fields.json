@@ -5,8 +5,163 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "name": "minecraft:oak_planks",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_mushroom_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_mushroom_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_mushroom",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_mushroom",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:wither",
+                  "duration": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:regeneration",
+                  "duration": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 3,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mushroom_stew"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bowl",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "minecraft:iron_sword",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -26,8 +181,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 9,
           "name": "minecraft:golden_sword",
+          "weight": 9,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -47,8 +202,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 7,
           "name": "minecraft:stone_sword",
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -68,8 +223,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:wooden_sword",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -90,85 +245,15 @@
       ]
     },
     {
-      "rolls": {
-        "min": 5,
-        "max": 7
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:red_mushroom_block"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:brown_mushroom_block"
-        }
-      ]
-    },
-    {
       "rolls": 1,
       "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:spruce_boat"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:oak_boat"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:mangrove_boat"
-        },
         {
           "type": "minecraft:item",
           "name": "minecraft:jungle_boat"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:dark_oak_boat"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:birch_boat"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:acacia_boat"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 3,
-        "max": 4
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:bowl"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 6,
-          "name": "minecraft:mushroom_stew"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 3,
-        "max": 6
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:red_mushroom"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:brown_mushroom"
+          "name": "minecraft:jungle_chest_boat"
         }
       ]
     }

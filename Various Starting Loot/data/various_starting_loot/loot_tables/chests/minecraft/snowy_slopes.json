@@ -1,24 +1,11 @@
 {
   "pools": [
     {
-      "rolls": 3,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:rabbit_stew"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cooked_rabbit",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 3
-              }
-            }
-          ]
         }
       ]
     },
@@ -74,8 +61,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3,
-                "max": 4
+                "min": 5,
+                "max": 6
               }
             }
           ]
@@ -83,7 +70,7 @@
       ]
     },
     {
-      "rolls": 2,
+      "rolls": 3,
       "entries": [
         {
           "type": "minecraft:item",
@@ -92,8 +79,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 7,
-                "max": 8
+                "min": 3,
+                "max": 4
               }
             }
           ]
@@ -190,14 +177,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cooked_chicken",
+          "name": "minecraft:cooked_rabbit",
           "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 3
+                "min": 3,
+                "max": 4
               }
             }
           ]
@@ -210,8 +197,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3,
-                "max": 4
+                "min": 5,
+                "max": 6
               }
             }
           ]

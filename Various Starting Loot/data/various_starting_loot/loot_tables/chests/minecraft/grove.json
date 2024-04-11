@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:mangrove_boat"
+          "name": "minecraft:spyglass"
         }
       ]
     },
@@ -14,24 +14,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:pufferfish_bucket"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:tropical_fish_bucket"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:potion",
+          "name": "minecraft:goat_horn",
           "functions": [
             {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:water_breathing"
+              "function": "minecraft:set_instrument",
+              "options": "#minecraft:regular_goat_horns"
             }
           ]
         }
@@ -42,7 +29,34 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:dirt",
+          "name": "minecraft:bucket"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snow_block",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -60,13 +74,22 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:kelp",
+          "name": "minecraft:rabbit_stew"
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spruce_log",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 3
+                "min": 5,
+                "max": 6
               }
             }
           ]
@@ -74,91 +97,32 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": 2,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:clay",
+          "name": "minecraft:cooked_rabbit",
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 3
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:sand",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 8,
-                "max": 9
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:brush"
-        }
-      ]
-    },
-    {
-      "rolls": 4,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cooked_salmon",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 3
+                "min": 3,
+                "max": 4
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:cooked_cod",
-          "weight": 12,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:dried_kelp",
+          "name": "minecraft:cooked_mutton",
           "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 4,
-                "max": 5
+                "min": 3,
+                "max": 4
               }
             }
           ]
@@ -170,7 +134,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather_helmet",
+          "name": "minecraft:stone_pickaxe",
           "weight": 6,
           "functions": [
             {
@@ -191,7 +155,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_helmet",
+          "name": "minecraft:iron_pickaxe",
           "weight": 4,
           "functions": [
             {
@@ -212,7 +176,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_helmet",
+          "name": "minecraft:wooden_pickaxe",
           "weight": 6,
           "functions": [
             {
@@ -233,14 +197,14 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chainmail_helmet",
+          "name": "minecraft:golden_pickaxe",
           "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_damage",
               "damage": {
-                "min": 0.55,
-                "max": 0.75
+                "min": 0.7,
+                "max": 0.9
               }
             },
             {
@@ -248,26 +212,6 @@
               "levels": {
                 "min": 3,
                 "max": 7
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:turtle_helmet",
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.3,
-                "max": 0.45
-              }
-            },
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 1,
-                "max": 4
               }
             }
           ]

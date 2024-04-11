@@ -42,6 +42,18 @@
         },
         {
           "type": "minecraft:loot_table",
+          "name": "various_starting_loot:chests/minecraft/stony_peaks",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:stone_peaks"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "name": "various_starting_loot:chests/terralith/alpine_grove",
           "conditions": [
             {
@@ -486,7 +498,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "various_starting_loot:chests/minecraft/cold_highland",
+          "name": "various_starting_loot:chests/minecraft/grove",
           "conditions": [
             {
               "condition": "minecraft:location_check",
@@ -810,7 +822,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "various_starting_loot:chests/minecraft/cherry",
+          "name": "various_starting_loot:chests/minecraft/cherry_grove",
           "conditions": [
             {
               "condition": "minecraft:location_check",
