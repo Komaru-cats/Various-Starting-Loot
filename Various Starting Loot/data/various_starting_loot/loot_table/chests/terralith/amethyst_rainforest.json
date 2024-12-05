@@ -1,79 +1,20 @@
 {
-  "type": "minecraft:chest",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:flowering_azalea",
+          "name": "minecraft:bamboo",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3,
-                "max": 5
+                "min": 2,
+                "max": 3
               }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:azalea",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:leather_helmet",
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.2,
-                "max": 0.6
-              }
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.7
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 4,
-        "max": 7
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:melon"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:melon_slice"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 7,
-          "name": "minecraft:cooked_chicken"
         }
       ]
     },
@@ -82,87 +23,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:iron_axe",
+          "name": "minecraft:wheat_seeds",
           "functions": [
             {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.2,
-                "max": 0.3
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 4
               }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:golden_pickaxe",
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.6,
-                "max": 0.8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:stone_axe",
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.3,
-                "max": 0.6
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "minecraft:wooden_axe",
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.7,
-                "max": 1
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 6,
-        "max": 9
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:bamboo"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:smooth_basalt"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:calcite"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 9,
-          "name": "minecraft:acacia_log"
         }
       ]
     },
@@ -171,48 +41,158 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:iron_chestplate",
+          "name": "minecraft:leather_chestplate",
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
-                "min": 3,
-                "max": 7
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.7
-                }
-              ]
+                "min": 1,
+                "max": 5
+              }
             },
             {
               "function": "minecraft:set_damage",
               "damage": {
-                "min": 0.1,
-                "max": 0.3
+                "min": 0.6,
+                "max": 0.9
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:acacia_log",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 12
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:smooth_basalt",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_chicken",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 4
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
-          "name": "minecraft:chainmail_chestplate",
+          "name": "minecraft:cooked_porkchop",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_mutton",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "min": 3,
                 "max": 7
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.7
-                }
-              ]
+              }
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.4,
+                "max": 0.7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 3,
+                "max": 7
+              }
             },
             {
               "function": "minecraft:set_damage",
@@ -225,54 +205,60 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 7,
-          "name": "minecraft:golden_chestplate",
+          "name": "minecraft:wooden_axe",
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "min": 3,
-                "max": 8
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.7
-                }
-              ]
+                "max": 7
+              }
             },
             {
               "function": "minecraft:set_damage",
               "damage": {
-                "min": 0.6,
-                "max": 0.8
+                "min": 0.7,
+                "max": 0.9
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
-          "name": "minecraft:leather_chestplate",
+          "name": "minecraft:golden_axe",
+          "weight": 4,
           "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.7,
+                "max": 0.9
+              }
+            },
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "min": 3,
-                "max": 8
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.7
-                }
-              ]
-            },
+                "max": 7
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:calcite",
+          "functions": [
             {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.6,
-                "max": 0.9
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 5
               }
             }
           ]

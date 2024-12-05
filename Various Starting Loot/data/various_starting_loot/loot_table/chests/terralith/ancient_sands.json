@@ -1,26 +1,20 @@
 {
   "pools": [
     {
-      "rolls": {
-        "min": 1,
-        "max": 3
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:potion",
+          "name": "minecraft:granite",
           "functions": [
             {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:water"
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:dead_bush"
         }
       ]
     },
@@ -29,8 +23,80 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 8,
+          "name": "minecraft:rabbit_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_sand",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sand",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dead_bush",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "minecraft:stone_shovel",
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -50,8 +116,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:iron_shovel",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -71,8 +137,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:wooden_shovel",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -92,8 +158,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:golden_shovel",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -123,24 +189,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cooked_rabbit"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 5,
-        "max": 9
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:red_sand"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:sand"
         }
       ]
     }
