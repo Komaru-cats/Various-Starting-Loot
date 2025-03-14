@@ -18,6 +18,18 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "various_starting_loot:chests/minecraft/pale_garden",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "various_starting_loot:chests/minecraft/stony_peaks",
           "conditions": [
             {
