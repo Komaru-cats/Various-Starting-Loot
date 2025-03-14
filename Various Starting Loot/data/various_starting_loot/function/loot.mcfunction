@@ -1,2 +1,2 @@
-give @s chest[minecraft:enchantment_glint_override=True,custom_name='{"text":"","extra":["",{"text":"Starting Loot","color":"#FFEF4C","bold":true}],"italic":false}',lore=['{"text":"","extra":["",{"text":"Open up to get the starting loot","color":"gray"}],"italic":false,"color":"white"}'],container_loot={loot_table:"minecraft:chests/spawn_bonus_chest"}] 1
+give @s chest[minecraft:enchantment_glint_override=True,custom_name={"text":"","extra":[{"text":"Starting Loot","color":"#FFEF4C","bold":true}],"italic":false},lore=[{"text":"","extra":[{"text":"Open up to get the starting loot","color":"gray"}],"italic":false,"color":"white"}],container_loot={loot_table:"minecraft:chests/spawn_bonus_chest"}] 1
 scoreboard players set @s loot_obtained 1
