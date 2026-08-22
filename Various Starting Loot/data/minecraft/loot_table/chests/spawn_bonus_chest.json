@@ -18,6 +18,18 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "various_starting_loot:chests/minecraft/sulfur_caves",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:sulfur_caves"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "various_starting_loot:chests/minecraft/pale_garden",
           "conditions": [
             {
